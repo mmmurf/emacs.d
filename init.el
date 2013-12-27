@@ -54,8 +54,6 @@
 (setq initial-frame-alist '((top . 0) (left . 0)))
 
 
-
-
 ;; Put autosave files (ie #foo#) and backup files (ie foo~) in ~/.emacs.d/.
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -72,22 +70,6 @@
 (make-directory "~/.emacs.d/autosaves/" t)
 
 
-;;; (setq erc-autojoin-channels-alist '(("freenode.net" "#emacs" "#erc")))
-
-
-;;;(add-to-list 'gnus-secondary-select-methods '(nnimap "gmail"
-;;;                                  (nnimap-address "imap.gmail.com")
-;;;                                  (nnimap-server-port 993)
-;;;                                  (nnimap-stream ssl)))
-
-
-;;;(setq message-send-mail-function 'smtpmail-send-it
-;;;      smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
-;;;      smtpmail-auth-credentials '(("smtp.gmail.com" 587 "mmmurf@gmail.com" nil))
-;;;      smtpmail-default-smtp-server "smtp.gmail.com"
-;;;      smtpmail-smtp-server "smtp.gmail.com"
-;;;      smtpmail-smtp-service 587
-;;;      smtpmail-local-domain "local")
 
 (server-start)
 (custom-set-faces
