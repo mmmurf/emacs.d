@@ -1,0 +1,6 @@
+-- These are my dotfiles.  I was using Technomancy's emacs starter kit but I realized that
+   so much of the stuff in there is now bundled into emacs 0.23.  I never use older emacsens.
+
+   Also, pretty much everything else I need is in elpa.
+
+-- THANK YOU
