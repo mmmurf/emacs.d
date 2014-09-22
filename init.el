@@ -25,13 +25,14 @@
 
 (global-font-lock-mode 1)
 
-;(add-hook 'before-save-hook 'delete-trailing-whitespace)
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 
 
 (defun fontify-frame (frame)
   ;;(set-frame-parameter frame 'font "Inconsolata-15"))
   (set-frame-parameter frame 'font "Monaco-13"))
+  ;;(set-frame-parameter frame 'font "Courier New-15"))
   ;;(set-frame-parameter frame 'font "Liberation Mon-14"))
 
 ;;(set-frame-parameter frame 'font "Monospace-15"))
@@ -44,6 +45,8 @@
 
 
 (setq auto-mode-alist  (cons '("Rakefile$" . ruby-mode) auto-mode-alist))
+
+(setq ruby-deep-indent-paren nil)
 
 (setq default-frame-alist
       '((top . 40) (left . 40)
